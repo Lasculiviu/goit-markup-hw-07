@@ -366,3 +366,110 @@ margin-top: -63px;
 margin-left: 60px;
     
 }
+
+@media screen and (max-width: 768px) {
+    
+}
+
+
+@media  screen and (max-width: 428px) {
+
+    
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+ 
+    .logo {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    
+    .order {
+        padding: 20px;
+    }
+
+  
+    .s1 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section_1 {
+        width: 100%;
+    }
+
+    .section_1 ul.body-center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section_1 ul.body-center li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+   
+    .section2 {
+        padding: 20px;
+    }
+
+    .section2 ol {
+        justify-content: center;
+    }
+
+    .section2 ol li {
+        margin-right: 10px;
+    }
+
+  
+    .section3 {
+        padding: 20px;
+    }
+
+    .section3 ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section3 ul li {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    
+    .clients {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+.what ol {
+    flex-direction: column;
+        align-items: center;
+}
+    .clients p {
+        width: 50%;
+        text-align: center;
+        margin: -15px;
+    }
+.nav{
+    display: none;
+
+}
+
+
+
+}
