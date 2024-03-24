@@ -1,0 +1,368 @@
+    .logo::before {
+
+        content: "WEB";
+        color:#4D5AE5;
+        margin-left: 140px;   
+     
+    }
+
+    .layout{
+        Height:1440px;
+        height: 72px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+    }
+ .section_1 {
+     align-items: center;
+    text-align: center;
+    justify-content: flex-CENTER;
+    background-color: white;
+    width: 1200px;
+ }
+  .nav{
+    background-color: white;
+    justify-content: space-between;
+        width: 1200px;
+        display: flex;
+        display: flex;
+    }
+   .nav ul {
+       display: flex;
+       list-style: none;
+       padding: 0;
+       margin: 0;
+   }
+ .nav a {   text-decoration: none;
+             color:black;}
+ 
+            
+.order{
+  width: 1440px;
+  height: 600px;
+  margin: auto 0;
+  position:relative ;
+background-image: url(../images/people-office\ 1.png);
+background-image: linear-gradient(rgba(46,47,66,0.7),rgba(46,47,66,0.7)),  url(./images/people-office\ 1.png);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+color: rgb(241, 245, 247);
+    }
+    .orderbutton {
+    padding: 4px 100px;width: 120px;
+        height: 40px;
+        font-size: 16px;
+    
+    }
+    
+    .order_text{
+       font-size: xxx-large;
+       
+    }
+
+.footer{
+width: 1440px ;
+height: 312px; top: 2280px;
+color: white;
+display: flex;
+
+}
+.body-center{
+    list-style: none;display: flex;
+        
+        align-items: center;
+        text-align: center;
+        width: 1128px;
+margin-left: 120px;       
+    }
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1440px;
+    margin-right: 20px;
+    list-style: none;
+    }
+
+
+.section3{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 1440px;
+        background-color:#F4F4FD;
+    
+        
+    
+}
+.footer-endpage{
+    width: 1440px;
+    height: 312px;
+    margin-top: 80px;
+
+    }
+
+
+.what ol{
+    list-style: none;
+     
+        padding: 0;
+       
+        margin: 20px;
+}
+
+
+  .filter{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+margin-right: 350px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+    
+  }
+
+.row1{
+margin-top: 30px;
+    display: flex;
+        justify-content: center;
+        align-items: center;  
+        height: 420px;
+        width: 1128px;  
+}
+.row1 ol {
+    list-style-type: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+.row2{
+    
+    margin-top: 30px;
+     display: flex;
+    justify-content: center;
+    align-items: center;height: 420px;
+        width: 1128px;
+}
+.row2 ol {
+    list-style-type: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+.row3 {
+    margin-top: 30px;
+    display: flex;
+        justify-content: center;
+        align-items: center;height: 420px;
+            width: 1128px;
+            list-style:none;
+        list-style-type: none;
+           
+         
+        }
+                   .row3 ol {
+                       list-style-type: none;
+                    
+                       padding: 0;
+                       
+                       margin: 0;}
+    
+.social-button{
+    
+            padding: 5px 1%;
+            font-size: 0.4em;
+            background-color: #4D5AE5;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            margin-bottom: 5%;
+           
+            border-radius: 15px;
+          
+        }
+                .button:hover {
+                    background-color: #404BBF;
+                
+                    color: #E7E9FC;
+                   
+                }
+.icon-list{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+  .icon-list .icon svg {
+    width: 20px;
+    height: 20px;
+    
+
+  }
+  .icon-list .icon{
+width: 44px;
+height: 44px;
+background-color: #4D5AE5;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+  }
+  .clients{
+    display: flex;
+   justify-content: center;
+height: 200px;
+width: 1440px;
+
+  }
+   
+  .client-logo {
+    width: 200px;
+    
+    height: auto;
+   
+    margin: 10px;width: 150px;
+        height: 100px;
+        object-fit: cover;
+        margin: 10px
+ 
+}
+.textfooter{
+    margin-top: 130px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 400; 
+margin-left: -200px;
+    
+}
+.social-media{
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 100px;
+
+
+}
+.textfooter2{
+   margin-top: 100px;
+   margin-left: -130px;
+    color: #F4F4FD;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+   
+}
+.clients img {
+    width: 168px;
+    height: 88px;
+    border: 1px #8E8F99;
+    
+    border-radius: 4px;
+    
+}
+
+.is-hidden{
+   visibility: hidden; 
+}
+.modal{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(46, 47, 66, 0.5);
+        
+}
+.modal-content{
+    margin-top: 80px;
+    padding: 16px;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    width: 408px;
+    height: 584px;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+ 
+ 
+}
+
+.close-btn{
+    background-color: #E7E9FC;
+    border-radius: 50%;
+    color: #2E2F42;
+outline: none;
+position: absolute;
+top: 24px;
+right: 24px;
+border: 1px;
+width: 24px;
+height: 24px; 
+
+
+}
+.logo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.overlay {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    height: 300px;
+    width: 360px;
+    position: absolute;
+    background-color:#4D5AE5;
+    transform: translateY(150%);
+    transition: transform 250ms cubic-bezier(0.9, 0, 0.1, 1);
+}
+
+.img-overlay {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-overlay:hover .overlay {
+    transform: translateY(0px);
+}
+.contact-form{
+display: flex;
+    flex-direction: column;
+   
+  margin-right: 200px;
+    margin-top: 16px;
+}
+.textmodal {
+display: flex;
+margin-top: 72px;
+    font-size: 17px;
+
+}
+.modaltermsbox{
+    margin-top: 16px;
+    white-space: nowrap
+}
+
+.sendbtn{
+    margin-top: 17px;
+    margin-left: 109px;
+}
+
+.subscribe-section{
+margin-top: -63px;
+margin-left: 60px;
+    
+}
