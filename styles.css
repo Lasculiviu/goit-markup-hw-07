@@ -470,6 +470,13 @@ margin-left: 60px;
 
 }
 
+.footer-endpage{
+    display: flex;flex-direction: column;
+        align-items: center;
+}
+.logo .textfooter .social-media .e-mailinput{flex-direction: column;
+    align-items: center;
 
+}
 
 }
